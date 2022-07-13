@@ -15,4 +15,4 @@ Given some review, the algorithm tells us if it is good or bad, by using differe
 The embedding vectors tell us about correlation between the words. The metric used to decide if the words belong to the same class, is called <strong>cosine similarity</strong>. If the vectors <strong>A</strong> and <strong>B</strong> have almost the same orientaton, $$Cosine Similarity(A, B) \approx 0$$
 
 
-$$Cosine Similarity(A, B)=cos(\theta)=\frac{A \cdot B}{|A|\cdot|B|}=\frac{|A|\cdot|B|\cdot cos(\theta)}{|A|\cdot|B|}$$
+$$Cosine Similarity(A, B)=cos(\theta)=\frac{A \cdot B}{|A|\cdot|B|}=\frac{|A|\cdot|B|\cdot cos(\theta)}{|A|\cdot|B|}=\frac{A^{T}B}{\sqrt{A^{T}}\sqrt{B^{T}}}$$
