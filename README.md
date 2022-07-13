@@ -7,3 +7,7 @@ Given some review, the algorithm tells us if it is good or bad, by using differe
 
 <h4>Requirements :</h4>
 <strong>Python version 3.8</strong> because the lattest version doesn't support <strong>tensorflow_datasets</strong>
+
+## Embedding projector
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/100322125/178844316-827567c7-4233-4563-9bff-9086917b902b.gif)
